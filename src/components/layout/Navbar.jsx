@@ -58,16 +58,16 @@ function Navbar() {
 
   return (
     <nav className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div className="max-w-10/12 mx-auto px-6 py-4 flex justify-between items-center">
         
-        <a href="#" className="flex flex-col leading-tight">
+        <div className="flex flex-col leading-tight">
           <span className="text-lg font-semibold text-indigo-500">
             Kabir Chandrikapure
           </span>
           <span className="text-xs text-slate-400 tracking-wide">
             Frontend Engineer
           </span>
-        </a>
+        </div>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">
           {navLinks.map((link) => (
@@ -83,7 +83,7 @@ function Navbar() {
               {link.name}
 
               <span
-                className={`absolute left-0 -bottom-1 h-[2px] bg-indigo-500 transition-all duration-300 ${
+                className={`absolute left-0 -bottom-1 h-0.5 bg-indigo-500 transition-[width] duration-300 ${
                   active === link.id ? "w-full" : "w-0"
                 }`}
               />
@@ -101,14 +101,14 @@ function Navbar() {
 
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden text-xl"
+          className="md:hidden text-xl cursor-pointer"
         >
           ☰
         </button>
       </div>
 
       {open && (
-        <div className="md:hidden px-6 pb-4 space-y-4 text-sm border-t border-slate-800 bg-slate-950">
+        <div className="md:hidden px-6 py-4 space-y-4 text-sm border-t border-slate-800 bg-slate-950">
           {navLinks.map((link) => (
             <a
               key={link.id}

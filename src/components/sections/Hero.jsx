@@ -40,7 +40,7 @@ function Hero() {
         <img
             src={kabir}
             alt="Kabir Chandrikapure"
-            className="relative w-80 md:w-96 h-auto object-contain rounded-2xl border border-slate-800 shadow-2xl"
+            className="relative w-80 md:w-96 h-auto object-contain rounded-2xl border border-slate-800"
         />
         </div>
       </div>
