@@ -61,15 +61,15 @@ function Navbar() {
       <div className="max-w-10/12 mx-auto px-6 py-4 flex justify-between items-center">
         
         <div className="flex flex-col leading-tight">
-          <span className="text-lg font-semibold text-indigo-500">
+          <span className="text-xl font-semibold text-indigo-500">
             Kabir Chandrikapure
           </span>
-          <span className="text-xs text-slate-400 tracking-wide">
+          <span className="text-sm text-slate-400 tracking-wide">
             Frontend Engineer
           </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-medium">
+        <div className="hidden md:flex items-center gap-8 text-base font-medium">
           {navLinks.map((link) => (
             <a
               key={link.id}
@@ -93,9 +93,9 @@ function Navbar() {
           <a
             href="/resume.pdf"
             download
-            className="border border-slate-700 hover:border-indigo-500 px-4 py-2 rounded-md text-xs transition"
+            className="bg-indigo-500 hover:bg-indigo-400 px-6 py-3 rounded-lg text-sm transition"
           >
-            Resume
+            Download Resume
           </a>
         </div>
 
@@ -125,7 +125,7 @@ function Navbar() {
             download
             className="block border border-slate-700 hover:border-indigo-500 px-4 py-2 rounded-md text-center text-xs transition"
           >
-            Resume
+            Download Resume
           </a>
         </div>
       )}

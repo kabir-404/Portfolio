@@ -11,9 +11,7 @@ function Hero() {
             Hi, I'm <span className="text-indigo-500">Kabir Chandrikapure</span>
           </h1>
 
-          <p className="text-slate-400 text-lg mb-8">
-            Frontend Engineer with 3+ years of experience building scalable
-            React-based applications and interactive learning systems.
+          <p className="text-slate-400 text-lg mb-8">Creative Front-End Developer with 3+ years of experience driving user engagement through innovative web solutions. Adept at crafting intuitive UIs and building interactive web applications with React.js, Javascript, HTML and CSS. Proven ability to translate design concepts into functional and visually appealing user experiences. I am passionate about technology and eager to contribute to your team’s success as a Front-End Developer.
           </p>
 
           <div className="flex gap-4">
