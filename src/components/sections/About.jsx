@@ -16,8 +16,7 @@ function About() {
         </p>
         <p className="text-slate-400 leading-relaxed text-lg mt-6">
           My core stack includes React.js, JavaScript, Tailwind CSS, React Router DOM, Axios, and modern frontend tooling. I enjoy collaborating across teams, translating design systems into
-          scalable implementations, and continuously improving development
-          workflows.
+          scalable implementations, and continuously improving development workflows.
         </p>
       </div>
     </section>
