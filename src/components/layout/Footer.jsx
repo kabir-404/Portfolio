@@ -8,7 +8,7 @@ function Footer() {
         </p>
 
         <p className="mt-3 md:mt-0">
-          Built with React, Vite & Tailwind CSS.
+          Built with React, Tailwind CSS & Vite.
         </p>
       </div>
     </footer>

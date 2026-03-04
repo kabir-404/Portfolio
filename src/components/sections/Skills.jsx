@@ -1,29 +1,24 @@
 const skills = [
   "React",
-  "JavaScript (ES6+)",
+  "JavaScript",
   "HTML",
   "CSS",
   "Tailwind CSS",
   "TypeScript",
   "Redux Toolkit",
+  "React Router DOM",
   "React Testing Library",
   "Vitest",
+  "GitHub Copilot",
+  "GitLab",
   "Axios",
-  "React Router DOM",
-  "SPA Development",
-  "Git & GitHub",
-  "HTML",
-  "CSS",
-  "Vite",
   "NPM",
   "Postman",
   "Figma",
   "Agile/Scrum",
   "Code Reviews",
-  "Component-Based Architecture",
-  "AI-Assisted Development",
-  "GitHub Copilot",
-  "GitLab"
+  "SPA Development",
+  "AI-Assisted Development"
 ];
 
 function Skills() {

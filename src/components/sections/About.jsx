@@ -9,25 +9,15 @@ function About() {
           About Me
         </h2>
 
-        <p className="text-slate-400 leading-relaxed text-lg">
-          I am a Frontend Engineer with over 3 years of experience building
-          scalable, interactive web applications using React.js and modern
-          frontend technologies. I specialize in crafting reusable component
-          architectures and delivering pixel-perfect, responsive user
-          interfaces.
-        </p>
+        <p className="text-slate-400 leading-relaxed text-lg">I hold a B.Tech degree in Information Technology from Vishwakarma Institute of Information Technology, Pune (2022), and I am a Frontend Developer with 3+ years of experience building scalable and interactive web applications using JavaScript and React.js. I specialize in creating reusable component architectures and developing <span className="whitespace-nowrap">pixel-perfect</span>, responsive user interfaces.</p>
 
         <p className="text-slate-400 leading-relaxed text-lg mt-6">
-          At Red Nucleus, I contributed to a proprietary React-based framework
-          and developed 70+ interactive e-learning modules for enterprise
-          clients in the life sciences domain. I focus on clean code,
-          performance optimization, accessibility, and maintainable UI systems.
+          At Red Nucleus, a global company focused on the life sciences industry, I contributed to the development of a proprietary React-based framework and built 70+ interactive e-learning modules for enterprise clients. <span className="whitespace-nowrap">I implemented</span> responsive interfaces from design mockups using Tailwind CSS and developed dynamic UI components such as quizzes, modals, carousels, and video players. 
         </p>
-
         <p className="text-slate-400 leading-relaxed text-lg mt-6">
-          I enjoy collaborating across teams, translating design systems into
+          My core stack includes React.js, JavaScript, Tailwind CSS, React Router DOM, Axios, and modern frontend tooling. I enjoy collaborating across teams, translating design systems into
           scalable implementations, and continuously improving development
-          workflows using modern tools and AI-assisted development practices.
+          workflows.
         </p>
       </div>
     </section>

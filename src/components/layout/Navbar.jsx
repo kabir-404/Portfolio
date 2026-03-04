@@ -65,7 +65,7 @@ function Navbar() {
             Kabir Chandrikapure
           </span>
           <span className="text-sm text-slate-400 tracking-wide">
-            Frontend Engineer
+            UI/Frontend Developer
           </span>
         </div>
 
@@ -91,7 +91,7 @@ function Navbar() {
           ))}
 
           <a
-            href="/resume.pdf"
+            href="/Kabir_Chandrikapure_resume.pdf"
             download
             className="bg-indigo-500 hover:bg-indigo-400 px-6 py-3 rounded-lg text-sm transition"
           >
@@ -121,7 +121,7 @@ function Navbar() {
           ))}
 
           <a
-            href="/resume.pdf"
+            href="/Kabir_Chandrikapure_resume.pdf"
             download
             className="block border border-slate-700 hover:border-indigo-500 px-4 py-2 rounded-md text-center text-xs transition"
           >
