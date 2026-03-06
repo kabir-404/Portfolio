@@ -34,7 +34,7 @@ function Contact() {
 
           {/* LinkedIn */}
           <a
-            href="www.linkedin.com/in/kabir-chandrikapure-663331213"
+            href="https://www.linkedin.com/in/kabir-chandrikapure-663331213"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 border border-slate-700 hover:border-indigo-500 px-8 py-3 rounded-lg text-sm font-medium transition duration-300 hover:-translate-y-1 hover:shadow-lg"
